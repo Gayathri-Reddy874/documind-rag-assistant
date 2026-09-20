@@ -6,10 +6,7 @@
   <a href="https://streamlit.io/"><img alt="Streamlit" src="https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg"></a>
   <a href="https://groq.com/"><img alt="Groq" src="https://img.shields.io/badge/LLM-Groq%20LPU-F55036.svg"></a>
   <a href="https://github.com/Gayathri-Reddy874/documind-rag-assistant/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-  <br>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gayathri-Reddy874/documind-rag-assistant">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/Gayathri-Reddy874/documind-rag-assistant?style=social">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/Gayathri-Reddy874/documind-rag-assistant?style=social">
 </p>
 
 A production-structured **Retrieval-Augmented Generation (RAG)** chatbot that lets you upload documents (PDF, DOCX, TXT, CSV, Markdown) and ask natural-language questions about them — grounded, cited answers powered by **Groq's LPU inference** for near-instant responses.
