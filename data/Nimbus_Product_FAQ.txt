@@ -1,0 +1,38 @@
+Nimbus Cloud Solutions — Product FAQ (Internal Knowledge Base)
+
+Q: What is Nimbus Insight?
+A: Nimbus Insight is our flagship cloud infrastructure monitoring product. It provides real-time
+metrics, log aggregation, and anomaly detection for AWS, Azure, and GCP environments. It was
+launched in 2019 and currently monitors over 40,000 cloud instances across our client base.
+
+Q: What pricing tiers are available?
+A: Nimbus Insight is offered in three tiers: Starter ($49/month, up to 10 monitored instances),
+Growth ($199/month, up to 100 monitored instances), and Enterprise (custom pricing, unlimited
+instances with a dedicated account manager and 99.9% uptime SLA).
+
+Q: How does the anomaly detection engine work?
+A: The anomaly detection engine uses a combination of statistical baselining (rolling 14-day
+averages) and a lightweight machine learning model trained on historical metric patterns per
+client. Alerts are only triggered when a metric deviates more than 3 standard deviations from
+its baseline for at least 2 consecutive minutes, to reduce false positives.
+
+Q: What integrations does Nimbus support?
+A: Nimbus integrates natively with Slack, PagerDuty, Opsgenie, Jira, and Microsoft Teams for
+alert routing. It also exposes a REST API and a Terraform provider for infrastructure-as-code
+users who want to manage monitoring configuration alongside their cloud resources.
+
+Q: What is the typical onboarding timeline for a new Enterprise client?
+A: Enterprise onboarding typically takes 3 to 4 weeks. Week 1 covers account provisioning and
+agent installation, Week 2 covers dashboard configuration and alert-threshold tuning, and Weeks
+3-4 cover a guided rollout to the client's engineering teams along with two training sessions.
+
+Q: How is customer data retained and deleted?
+A: Raw metric data is retained for 13 months by default, after which it is automatically
+aggregated into daily rollups and retained for 5 years for historical trend analysis. Upon
+contract termination, all raw and aggregated client data is permanently deleted within 30 days
+unless a longer retention period is contractually specified.
+
+Q: Who do I contact for a security questionnaire or compliance documentation?
+A: Security questionnaires and SOC 2 Type II reports can be requested from the Security team at
+security@nimbuscloud.example. Standard turnaround time for completed questionnaires is 5
+business days.

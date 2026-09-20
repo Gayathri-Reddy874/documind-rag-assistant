@@ -1,0 +1,13 @@
+quarter,region,new_clients,churned_clients,mrr_growth_percent,avg_uptime_percent,support_tickets_opened,support_tickets_resolved_within_sla
+Q1 2025,APAC,42,5,6.1,99.92,318,301
+Q1 2025,EMEA,29,3,4.8,99.95,247,239
+Q1 2025,North America,58,7,7.3,99.89,402,378
+Q2 2025,APAC,51,4,7.0,99.94,335,320
+Q2 2025,EMEA,33,6,5.2,99.91,260,244
+Q2 2025,North America,64,9,8.1,99.87,415,388
+Q3 2025,APAC,47,6,6.5,99.96,300,291
+Q3 2025,EMEA,38,2,6.0,99.93,271,265
+Q3 2025,North America,71,8,8.9,99.90,430,410
+Q4 2025,APAC,55,5,7.8,99.97,312,305
+Q4 2025,EMEA,41,4,6.4,99.94,288,279
+Q4 2025,North America,68,11,7.5,99.85,447,401
