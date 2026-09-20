@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: document-intelligence-assistant
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data/vector_store:/app/data/vector_store
+    restart: unless-stopped
