@@ -1,4 +1,4 @@
-# 📚 DocuMind — Enterprise Document Intelligence Assistant
+# 📚 DocuMind - Enterprise Document Intelligence Assistant
 
 <p>
   <a href="https://github.com/Gayathri-Reddy874/documind-rag-assistant/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Gayathri-Reddy874/documind-rag-assistant/actions/workflows/ci.yml/badge.svg"></a>
