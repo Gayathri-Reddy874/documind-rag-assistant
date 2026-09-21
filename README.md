@@ -9,7 +9,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gayathri-Reddy874/documind-rag-assistant">
 </p>
 
-A production-structured **Retrieval-Augmented Generation (RAG)** chatbot that lets you upload documents (PDF, DOCX, TXT, CSV, Markdown) and ask natural-language questions about them — grounded, cited answers powered by **Groq's LPU inference** for near-instant responses.
+A production-structured **Retrieval-Augmented Generation (RAG)** chatbot that lets you upload documents (PDF, DOCX, TXT, CSV, Markdown) and ask natural-language questions about them - grounded, cited answers powered by **Groq's LPU inference** for near-instant responses.
 
 Built with a clean, layered architecture (config → ingestion → vector store → LLM chain → UI) so each piece is independently testable, swappable, and container-ready.
 
