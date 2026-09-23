@@ -29,7 +29,7 @@ Built with a clean, layered architecture (config → ingestion → vector store 
 
 ## ✨ Features
 
-- **Multi-format ingestion** — PDF, DOCX, TXT, Markdown, and CSV, with per-file validation (type, size, empty-content checks).
+- **Multi-format ingestion** - PDF, DOCX, TXT, Markdown, and CSV, with per-file validation (type, size, empty-content checks).
 - **Conversational memory** — follow-up questions are automatically reformulated into standalone queries using chat history (no more "what did you mean by that?").
 - **Source-grounded answers** — every response links back to the exact document chunks it was generated from, shown inline in the UI.
 - **Groq-powered inference** — swap between `openai/gpt-oss-120b` and `openai/gpt-oss-20b` from the sidebar (see [Groq's model list](https://console.groq.com/docs/models) for what's currently available on your plan).
