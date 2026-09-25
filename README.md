@@ -151,7 +151,7 @@ All settings are environment-driven (see `.env.example`) and validated at startu
 
 | Variable | Default | Description |
 |---|---|---|
-| `GROQ_API_KEY` | — | Your Groq API key (required) |
+| `GROQ_API_KEY` | - | Your Groq API key (required) |
 | `GROQ_MODEL` | `openai/gpt-oss-120b` | Groq-hosted generation model — check [console.groq.com/docs/models](https://console.groq.com/docs/models) if you hit `model_not_found` |
 | `LLM_TEMPERATURE` | `0.2` | Sampling temperature |
 | `EMBEDDING_MODEL` | `sentence-transformers/all-MiniLM-L6-v2` | HuggingFace embedding model |
