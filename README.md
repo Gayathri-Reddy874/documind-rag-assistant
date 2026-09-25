@@ -34,7 +34,7 @@ Built with a clean, layered architecture (config → ingestion → vector store 
 - **Source-grounded answers** - every response links back to the exact document chunks it was generated from, shown inline in the UI.
 - **Groq-powered inference** - swap between `openai/gpt-oss-120b` and `openai/gpt-oss-20b` from the sidebar (see [Groq's model list](https://console.groq.com/docs/models) for what's currently available on your plan).
 - **Local, private vector search** - FAISS + Sentence-Transformers embeddings run entirely on your machine; documents never leave your environment except for the LLM call itself.
-- **Persistence-ready** — vector indices can be saved/loaded per session for reuse across restarts.
+- **Persistence-ready** - vector indices can be saved/loaded per session for reuse across restarts.
 - **Enterprise-grade error handling** — typed, domain-specific exceptions surfaced as clear UI messages instead of stack traces.
 - **Fully tested & CI'd** — unit tests with mocked dependencies, linting (ruff + black), and a GitHub Actions pipeline that also builds the Docker image.
 - **Container-first** — multi-stage `Dockerfile`, non-root user, health checks, and a ready-to-go `docker-compose.yml`.
