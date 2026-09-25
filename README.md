@@ -32,7 +32,7 @@ Built with a clean, layered architecture (config → ingestion → vector store 
 - **Multi-format ingestion** - PDF, DOCX, TXT, Markdown, and CSV, with per-file validation (type, size, empty-content checks).
 - **Conversational memory** - follow-up questions are automatically reformulated into standalone queries using chat history (no more "what did you mean by that?").
 - **Source-grounded answers** - every response links back to the exact document chunks it was generated from, shown inline in the UI.
-- **Groq-powered inference** — swap between `openai/gpt-oss-120b` and `openai/gpt-oss-20b` from the sidebar (see [Groq's model list](https://console.groq.com/docs/models) for what's currently available on your plan).
+- **Groq-powered inference** - swap between `openai/gpt-oss-120b` and `openai/gpt-oss-20b` from the sidebar (see [Groq's model list](https://console.groq.com/docs/models) for what's currently available on your plan).
 - **Local, private vector search** — FAISS + Sentence-Transformers embeddings run entirely on your machine; documents never leave your environment except for the LLM call itself.
 - **Persistence-ready** — vector indices can be saved/loaded per session for reuse across restarts.
 - **Enterprise-grade error handling** — typed, domain-specific exceptions surfaced as clear UI messages instead of stack traces.
